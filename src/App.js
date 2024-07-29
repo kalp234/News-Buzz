@@ -117,11 +117,11 @@ function KitchenSinkExample() {
   }, []);
 
   return (
-    <div className="cards-container">
+    <div className="cards-container p-5">
       {news.map((item, index) => (
         <Card
           key={index}
-          style={{ width: "24rem", height: "fit-content", textAlign: "left" }}
+          // style={{ width: "24rem", height: "fit-content", textAlign: "left" }}
           className="bg-light"
         >
           <Card.Img
