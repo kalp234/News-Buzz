@@ -70,19 +70,19 @@ function Contact() {
                   <input type="checkbox" name="botcheck" id="" style={{ display: "none" }} />
                   <div className="mb-3">
                     <label htmlFor="name" className="form-label">Full Name</label>
-                    <input type="text" name="name" id="name" placeholder="John Doe" required className="form-control" />
+                    <input type="text" name="name" id="name" placeholder="Enter Your Full Name" required className="form-control" />
                   </div>
                   <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email Address</label>
-                    <input type="email" name="email" id="email" placeholder="you@company.com" required className="form-control" />
+                    <input type="email" name="email" id="email" placeholder="Enter a valid Email Address" required className="form-control" />
                   </div>
                   <div className="mb-3">
                     <label htmlFor="phone" className="form-label">Phone Number</label>
-                    <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required className="form-control" />
+                    <input type="text" name="phone" id="phone" placeholder="Enter Your Phone Number" required className="form-control" />
                   </div>
                   <div className="mb-3">
                     <label htmlFor="message" className="form-label">Your Message</label>
-                    <textarea rows="5" name="message" id="message" placeholder="Your Message" required className="form-control"></textarea>
+                    <textarea rows="5" name="message" id="message" placeholder="The Charcter limit for your message is 300 words." required className="form-control"></textarea>
                   </div>
                   <div className="mb-3">
                     <button type="submit" className="btn btn-primary w-100">Send Message</button>
